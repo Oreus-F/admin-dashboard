@@ -1,1 +1,14 @@
+:root{
+    font-size: 14px;
+}
 
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+ul, li, body, figure, p, h1, h2, h3, h4, ol {
+    margin: 0;
+    padding: 0;
+}
