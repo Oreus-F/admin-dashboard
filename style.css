@@ -56,7 +56,27 @@ body{
 .header{
     grid-area: header;
     border: 2px green solid;
+
+    padding: 15px;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 5px;
+
+    align-items: center;
 }
+
+
+.header > div:first-child {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr 1fr 1fr;
+}
+
+.header > div:last-child{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+}
+
 
 .main-part{
     grid-area: main-part;
