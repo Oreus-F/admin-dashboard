@@ -73,14 +73,19 @@ body{
 
 .header > div:first-child {
     display: grid;
-    grid-template-columns: 50px 6fr 1fr 1fr 1fr;
+    grid-template-columns: 50px 1fr 70px 70px 100px;
+    column-gap: 5px;
+    justify-items: end;
 }
+
+
 
 input{
     width: 500px;
     height: 25px;
     border-radius: 20px;
     border: #dbdbdb 1px solid;
+    justify-self: baseline;
 }
 
 .header > div:last-child{
@@ -97,6 +102,10 @@ button{
     width: 110px;
     border-radius: 25px;
     justify-self: end;
+}
+
+.header > div:last-child > p{
+    justify-self: center;
 }
 
 .header > div:first-child, .header > div:last-child{
