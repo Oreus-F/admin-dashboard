@@ -164,11 +164,13 @@ button{
 
 .card{
     background-color: #e6e6e6;
+
     border-radius: 12px;
+
     padding: 20px;
 
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 0.5fr 3fr 1fr;
     row-gap: 8px;
 
 
