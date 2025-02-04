@@ -90,6 +90,9 @@ button{
     border-radius: 25px;
 }
 
+.header > div:first-child, .header > div:last-child{
+    align-items: center;
+}
 
 .main-part{
     grid-area: main-part;
