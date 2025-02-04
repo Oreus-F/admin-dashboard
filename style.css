@@ -177,12 +177,15 @@ h4{
 
 
 .announce{
+    gap: 10px;
+}
+
+.announce, .trendings{
     display: grid;
 
     border: 1px black solid;
     border-radius: 8px;
     padding: 10px;
-    gap: 10px;
 }
 
 .announce > div{
@@ -193,7 +196,7 @@ h4{
 }
 
 .announce > div:nth-child(-n+2){
-    border-bottom: #dbdbdb 1px solid;
+    border-bottom: black 1px solid;
 }
 
 .announce > div >p:first-child{
@@ -202,5 +205,8 @@ h4{
 
 .announce > div > p:last-child{
     font-size: 0.8rem;
-    color: grey;
+}
+
+.trendings{
+
 }
