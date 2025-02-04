@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
 }
 
 
@@ -33,7 +34,6 @@ body{
     font-size: 1.2rem;
 
 }
-
 
 
 .user, .help, .title{
@@ -175,6 +175,11 @@ h4{
     align-self: self-end;
 }
 
-.announce > div > p{
+
+.announce > div >p:first-child{
+    font-size: 0.9rem;
+}
+
+.announce > div > p:last-child{
     font-size: 0.8rem;
 }
