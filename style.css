@@ -207,6 +207,12 @@ h4{
     font-size: 0.8rem;
 }
 
-.trendings{
+.trendings > div{
+    display: inline-grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(2, 1fr)
+}
 
+.trendings > div > img{
+    grid-row: 1 / 3;
 }
