@@ -30,6 +30,7 @@ body{
     display: grid;
     grid-template-rows: 1fr 3fr 6fr;
     padding: 20px;
+    row-gap: 15px;
 
     font-size: 1.2rem;
 
@@ -40,6 +41,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 5fr;
     column-gap: 15px;
+    align-items: center;
+    align-content: center;
 }
 
 
