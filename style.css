@@ -202,4 +202,5 @@ h4{
 
 .announce > div > p:last-child{
     font-size: 0.8rem;
+    color: grey;
 }
