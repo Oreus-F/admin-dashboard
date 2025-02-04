@@ -88,6 +88,10 @@ input{
     grid-template-columns: 100px 4fr 1fr 1fr 1fr;
 }
 
+.header > div:last-child > div{
+    font-size: 1.2rem;
+}
+
 button{
     height: 35px;
     width: 110px;
