@@ -176,6 +176,22 @@ h4{
 }
 
 
+.announce{
+    display: grid;
+
+    border: 1px black solid;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.announce > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
 .announce > div >p:first-child{
     font-size: 0.9rem;
 }
