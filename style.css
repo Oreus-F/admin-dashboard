@@ -1,5 +1,5 @@
 :root{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 * {
@@ -34,9 +34,7 @@ body{
 
 }
 
-.title > h3{
-    font-size: 1.8rem;
-}
+
 
 .user, .help, .title{
     display: grid;
