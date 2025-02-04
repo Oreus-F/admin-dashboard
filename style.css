@@ -176,3 +176,7 @@ button{
 h4{
     align-self: self-end;
 }
+
+.announce > div > p{
+    font-size: 0.8rem;
+}
