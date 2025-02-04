@@ -16,7 +16,7 @@ body{
 
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
     grid-template-areas: 
     "nav header"
     "nav main-part";
@@ -69,12 +69,25 @@ body{
 
 .header > div:first-child {
     display: grid;
-    grid-template-columns: 1fr 6fr 1fr 1fr 1fr;
+    grid-template-columns: 50px 6fr 1fr 1fr 1fr;
+}
+
+input{
+    width: 500px;
+    height: 25px;
+    border-radius: 20px;
+    border: #dbdbdb 1px solid;
 }
 
 .header > div:last-child{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    grid-template-columns: 100px 4fr 1fr 1fr 1fr;
+}
+
+button{
+    height: 35px;
+    width: 110px;
+    border-radius: 25px;
 }
 
 
