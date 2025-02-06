@@ -1,5 +1,13 @@
 :root{
     font-size: 16px;
+    font-family: ;
+
+    --tea-green-color: #bdd9bf;
+    --charcoal-color: #2E4052;
+    --sunglow-color: #FFC857;
+    --white: #FFFFFF;
+    --dark-purple: #412234;
+
 }
 
 * {
@@ -123,7 +131,7 @@ button{
     padding: 30px;
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
     gap: 15px;
 }
 
@@ -221,7 +229,7 @@ h4{
 }
 
 .announce{
-    gap: 10px;
+    gap: 15px;
 }
 
 .trendings{
@@ -231,7 +239,6 @@ h4{
 .announce > div{
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 .announce > div:nth-child(-n+2){
@@ -251,10 +258,19 @@ h4{
     grid-template-columns: 1fr 1fr 5fr;
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
+    row-gap: 5px;
 }
 
 .trendings > div > img{
     grid-row: 1 / 3;
     grid-column: 1 / 3;
     justify-self: center;
+}
+
+.trendings > div > p:nth-child(2){
+    align-self: end;
+}
+
+.trendings > div > p:last-child{
+    align-self: baseline;
 }
