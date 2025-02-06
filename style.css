@@ -1,6 +1,20 @@
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/roboto.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "quicksand";
+    src: url(fonts/quicksand.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root{
     font-size: 16px;
-    font-family: ;
+    font-family: "quicksand", "roboto", sans-serif;
 
     --tea-green-color: #bdd9bf;
     --charcoal-color: #2E4052;
