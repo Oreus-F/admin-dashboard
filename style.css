@@ -84,7 +84,7 @@ body{
     grid-area: header;
     border: 2px green solid;
 
-    padding: 10px 25px;
+    padding: 25px 50px;
 
     display: grid;
     grid-template-rows: 1fr 1.3fr;
@@ -96,15 +96,15 @@ body{
 
 .header > div:first-child {
     display: grid;
-    grid-template-columns: 50px 1fr 70px 70px 100px;
+    grid-template-columns: 50px 1fr 100px 100px 140px;
     column-gap: 5px;
-    justify-items: end;
+    justify-items: center;
 }
 
 
 
 input{
-    width: 500px;
+    width: 1000px;
     height: 25px;
     border-radius: 20px;
     border: #dbdbdb 1px solid;
