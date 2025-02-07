@@ -288,3 +288,8 @@ h4{
 .trendings > div > p:last-child{
     align-self: baseline;
 }
+
+img[src$=".png"]{
+    border-radius: 25px;
+    border: black 1px solid;
+}
