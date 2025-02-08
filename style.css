@@ -34,8 +34,7 @@
 
 
 body{
-    width: 100vw;
-    height: 100vh;
+    max-height: 100vh;
 
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -43,6 +42,15 @@ body{
     grid-template-areas: 
     "nav header"
     "nav main-part";
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background-color: red;
 }
 
 .nav{
