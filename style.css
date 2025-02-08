@@ -102,7 +102,9 @@ body{
     justify-items: center;
 }
 
-
+.header > div:last-child > img {
+    justify-self: center;
+}
 
 input{
     width: 1000px;
