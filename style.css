@@ -56,10 +56,7 @@ body{
     display: grid;
     grid-template-rows: 1fr 3fr 6fr;
     padding: 20px 50px;
-    row-gap: 15px;
-
-    font-size: 1.5rem;
-
+    row-gap: 50px;
 }
 
 .nav svg{
@@ -67,17 +64,40 @@ body{
     fill: black;
 }
 
+.nav svg:hover{
+    cursor: pointer;
+    fill: rgb(114, 114, 114);
+}
+
+
 .title svg{
     height: 50px;
     fill: black;
     
 }
 
+.title h3 {
+    font-size: 2rem;
+}
+
+.title h3:hover{
+    cursor: pointer;
+    color:rgb(114, 114, 114);
+}
+
+ul > li {
+    font-size: 1.2rem;
+}
+
+li:hover{
+    color: rgb(114, 114, 114);
+    cursor: pointer;
+}
 
 
 .user, .help, .title{
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 50px 1fr;
     column-gap: 15px;
     align-items: center;
     align-content: center;
@@ -100,7 +120,7 @@ body{
     grid-area: header;
 
     z-index: 1;
-    box-shadow: rgb(196, 196, 196) 0px 5px 5px;
+    box-shadow: rgb(206, 206, 206) 0px 5px 5px;
 
     padding: 25px 50px;
 
@@ -113,6 +133,11 @@ body{
 
 .header svg {
     height: 35px;
+}
+
+.header svg:hover{
+    cursor: pointer;
+    fill: rgb(116, 116, 116);
 }
 
 
@@ -133,13 +158,19 @@ input{
     border-radius: 20px;
     border: #dbdbdb 1px solid;
     justify-self: baseline;
+    padding-left: 10px;
+    font-family: "roboto", "quicksand", sans-serif ;
 }
+
 
 .header > div:last-child{
     display: grid;
     grid-template-columns: 100px 4fr 1fr 1fr 1fr;
 }
 
+.header > div:first-child img + p {
+    font-size: 1.6rem;
+}
 
 button{
     height: 40px;
@@ -154,6 +185,15 @@ button{
 
     font-size: 1rem;
     font-weight: 600;
+}
+
+button:hover{
+    background-color: #3b5066;
+    cursor: pointer;
+}
+
+button:focus{
+    background-color:#243241;
 }
 
 .header > div:last-child > p{
@@ -262,6 +302,14 @@ button{
     fill: var(--dark-purple);
 }
 
+.card svg:hover{
+    fill: #633550;
+    cursor: pointer;
+}
+
+.card svg:focus{
+    fill: #311927;
+}
 
 .main-part > div:last-child{
     display: grid;
@@ -271,6 +319,8 @@ button{
 
 h4{
     align-self: self-end;
+    font-size: 1.2rem;
+    color: var(--charcoal-color);
 }
 
 
@@ -296,6 +346,7 @@ h4{
 .announce > div{
     display: flex;
     flex-direction: column;
+    gap: 6px;
 }
 
 .announce > div:nth-child(-n+2){
