@@ -61,6 +61,16 @@ body{
 
 }
 
+.nav svg{
+    height: 35px;
+}
+
+.title  svg{
+    height: 60px;
+    
+}
+
+
 
 .user, .help, .title{
     display: grid;
