@@ -239,8 +239,9 @@ button{
     align-self: self-end;
 }
 
-.card img{
-    color: var(--sunglow-color);
+.card svg{
+    height: 35px;
+    fill: var(--sunglow-color);
 }
 
 
