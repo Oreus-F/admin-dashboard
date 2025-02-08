@@ -39,8 +39,8 @@ body{
     height: 100vh;
 
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
     grid-template-areas: 
     "nav header"
     "nav main-part";
@@ -51,6 +51,7 @@ body{
     z-index: 2;
     
     background-color: var(--tea-green-color);
+    color: black;
 
     display: grid;
     grid-template-rows: 1fr 3fr 6fr;
@@ -63,10 +64,12 @@ body{
 
 .nav svg{
     height: 35px;
+    fill: black;
 }
 
 .title svg{
     height: 50px;
+    fill: black;
     
 }
 
@@ -139,17 +142,17 @@ input{
 
 
 button{
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: 130px;
     border-radius: 25px;
     justify-self: end;
 
 
-    background-color: var(--dark-purple);
+    background-color: var(--charcoal-color);
     color: var(--white);
     border: none;
 
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -160,6 +163,7 @@ button{
 .header-main-text > p:last-child{
     font-size: 1.2rem;
     font-weight: 600;
+    margin-top: 6px;
 }
 
 
@@ -255,7 +259,7 @@ button{
 
 .card svg{
     height: 35px;
-    fill: var(--sunglow-color);
+    fill: var(--dark-purple);
 }
 
 
@@ -295,7 +299,7 @@ h4{
 }
 
 .announce > div:nth-child(-n+2){
-    border-bottom: black 1px solid;
+    border-bottom: rgb(189, 189, 189) 1px solid;
 }
 
 .announce > div >p:first-child{
