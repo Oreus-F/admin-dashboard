@@ -90,11 +90,13 @@ ul > li {
     column-gap: 25px;
     margin-bottom: 20px;
     align-items: center;
+    padding: 3px 12px;
 }
 
 li:hover{
-    color: rgb(114, 114, 114);
+    background-color: lightskyblue;
     cursor: pointer;
+    border-radius: 6px;
 }
 
 
