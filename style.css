@@ -62,7 +62,7 @@ body{
 
     display: grid;
     grid-template-rows: 1fr 3fr 6fr;
-    padding: 20px 50px;
+    padding: 20px 40px;
     row-gap: 50px;
 }
 
@@ -94,6 +94,11 @@ body{
 
 ul > li {
     font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 40px auto;
+    column-gap: 25px;
+    margin-bottom: 20px;
+    align-items: center;
 }
 
 li:hover{
@@ -102,10 +107,10 @@ li:hover{
 }
 
 
-.user, .help, .title{
+.title{
     display: grid;
-    grid-template-columns: 50px 1fr;
-    column-gap: 15px;
+    grid-template-columns: 40px auto;
+    column-gap: 25px;
     align-items: center;
     align-content: center;
 }
