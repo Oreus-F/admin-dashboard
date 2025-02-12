@@ -71,11 +71,6 @@ body{
     fill: black;
 }
 
-.nav svg:hover{
-    cursor: pointer;
-    fill: rgb(114, 114, 114);
-}
-
 
 .title svg{
     height: 50px;
@@ -87,10 +82,6 @@ body{
     font-size: 2rem;
 }
 
-.title h3:hover{
-    cursor: pointer;
-    color:rgb(114, 114, 114);
-}
 
 ul > li {
     font-size: 1.2rem;
