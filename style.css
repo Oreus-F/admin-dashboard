@@ -17,7 +17,10 @@
     font-family: "quicksand", "roboto", sans-serif;
 
     --tea-green-color: #bdd9bf;
+    --tea-color-hover: #cae1cc;
     --charcoal-color: #2E4052;
+    --charcoal-hover-color: #586675;
+    --charcoal-focus-color: #253342;
     --sunglow-color: #FFC857;
     --white: #FFFFFF;
     --dark-purple: #412234;
@@ -97,14 +100,17 @@ ul > li {
     column-gap: 25px;
     margin-bottom: 20px;
     align-items: center;
-    padding: 3px 12px;
+    padding: 5px 16px;
 }
 
 li:hover{
-    background-color: lightskyblue;
+    background-color: var(---tea-color-hover);
     cursor: pointer;
     border-radius: 6px;
+    box-shadow: 2px 3px 6px rgb(112, 112, 112);
+    
 }
+
 
 
 .title{
@@ -200,12 +206,12 @@ button{
 }
 
 button:hover{
-    background-color: #3b5066;
+    background-color: var(--charcoal-hover-color);
     cursor: pointer;
 }
 
 button:focus{
-    background-color:#243241;
+    background-color: var(--charcoal-focus-color);
 }
 
 .header > div:last-child > p{
