@@ -364,6 +364,7 @@ h4{
 }
 
 .trendings > div{
+    padding: 10px;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 5fr;
     grid-template-rows: repeat(2, 1fr);
