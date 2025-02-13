@@ -335,6 +335,7 @@ h4{
 .announce, .trendings{
     display: grid;
 
+    padding: 15px;
     overflow-y: scroll;
 
     background-color: var(--white);
@@ -343,19 +344,19 @@ h4{
 }
 
 .announce{
-    gap: 15px;
-    padding: 25px;
+    row-gap: 10px;
+
 }
 
 .trendings{
     row-gap: 5px;
-    padding: 15px;
 }
 
 .announce > div{
     display: flex;
     flex-direction: column;
     gap: 6px;
+    padding: 15px;
 }
 
 
