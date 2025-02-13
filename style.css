@@ -355,12 +355,10 @@ h4{
 .announce > div{
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    row-gap: 10px;
+    padding: 10px;
 }
 
-.announce > div:nth-child(-n+2){
-    border-bottom: rgb(189, 189, 189) 1px solid;
-}
 
 .announce > div >p:first-child{
     font-size: 0.9rem;
