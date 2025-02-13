@@ -355,9 +355,9 @@ h4{
 .announce > div{
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
-    padding: 10px;
+    gap: 6px;
 }
+
 
 
 .announce > div >p:first-child{
