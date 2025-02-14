@@ -56,13 +56,13 @@ body, html{
 
 /* ::-webkit-scrollbar{
     width: 8px;
-}
-
-::-webkit-scrollbar-thumb{
-    border-radius: 8px;
-    background-color: red;
 } */
 
+/* ::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background-color: red;
+}
+ */
 .nav{
     grid-area: nav;
     z-index: 2;
@@ -257,7 +257,7 @@ button:focus{
 
 .main-part > div:first-child{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     
     padding: 20px 0;
     gap: 15px;
