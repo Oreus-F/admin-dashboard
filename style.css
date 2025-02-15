@@ -304,7 +304,7 @@ button:focus{
     gap: 12px;
     align-items: flex-end;
 
-    
+    grid-row: 3 / 4;
 }
 
 .card > div:last-child > p:first-child{
