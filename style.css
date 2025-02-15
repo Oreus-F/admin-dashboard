@@ -58,6 +58,10 @@ body, html{
     width: 8px;
 }
 
+:hover::-webkit-scrollbar-thumb{
+    background-color: rgb(197, 197, 197);
+    border-radius: 8px;
+}
  
 .nav{
     grid-area: nav;
