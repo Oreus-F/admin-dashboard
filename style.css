@@ -315,14 +315,6 @@ button:focus{
 /* TEST PANNEAU EN HOVER FADE SUR CARTE */
 
 
-/* .card > div:last-child:hover::before{
-    opacity: 1;
-    transform: translate(0, 0);
-    transform: translate3d(0,0,0);
-    transition: 0.35s;
-} */
-
-
 /* FIN DU TEST TARBA */
 
 .card svg{
