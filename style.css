@@ -311,12 +311,6 @@ button:focus{
     align-self: self-end;
 }
 
-
-/* TEST PANNEAU EN HOVER FADE SUR CARTE */
-
-
-/* FIN DU TEST TARBA */
-
 .card svg{
     z-index: 2;
     height: 35px;
