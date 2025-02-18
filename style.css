@@ -16,15 +16,21 @@
     font-size: 16px;
     font-family: "quicksand", "roboto", sans-serif;
 
-    --tea-green-color: #bdd9bf;
-    --tea-color-hover: #cae1cc;
-    --charcoal-color: #2E4052;
-    --charcoal-hover-color: #586675;
-    --charcoal-focus-color: #253342;
-    --sunglow-color: #FFC857;
+    --primary-color: #2c4863;
+    --primary-color-hover: #415a73;
+    --primary-color-focus: #1a2b3b;
+
+    --secondary-color: #FFFFFF;
+
+    --ascent-color: #f28482 ;
+    --ascent-color-hover: #f7b5b4;
+    --ascent-color-focus: #914f4e;
+
     --white: #FFFFFF;
-    --dark-purple: #412234;
+    --black: #0f0f0f;
+
     --soft-light-grey: #f8f8f8;
+    --hard-grey: #bbbbbb;
 
 }
 
@@ -59,7 +65,7 @@ body, html{
 }
 
 :hover::-webkit-scrollbar-thumb{
-    background-color: rgb(197, 197, 197);
+    background-color: var(--hard-grey);
     border-radius: 8px;
 }
  
@@ -67,8 +73,8 @@ body, html{
     grid-area: nav;
     z-index: 2;
     
-    background-color: var(--tea-green-color);
-    color: black;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 
     display: grid;
     grid-template-rows: 0.3fr 1.7fr 1.5fr;
@@ -78,13 +84,13 @@ body, html{
 
 .nav svg{
     height: 35px;
-    fill: black;
+    fill: var(--secondary-color);
 }
 
 
 .title svg{
     height: 50px;
-    fill: black;
+    fill: var(--secondary-color);
     
 }
 
@@ -104,10 +110,12 @@ ul > li {
 }
 
 li:hover{
-    background-color: var(---tea-color-hover);
+    background-color: var(--primary-color-hover);
     cursor: pointer;
     border-radius: 6px;
-    box-shadow: 2px 3px 6px rgb(112, 112, 112);
+    box-shadow: 2px 3px 6px rgb(46, 46, 46);
+    column-gap: 35px;
+    transition: 0.35s;
     
 }
 
@@ -197,8 +205,8 @@ button{
     justify-self: end;
 
 
-    background-color: var(--charcoal-color);
-    color: var(--white);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     border: none;
 
     font-size: 1rem;
@@ -206,12 +214,12 @@ button{
 }
 
 button:hover{
-    background-color: var(--charcoal-hover-color);
+    background-color: var(--primary-color-hover);
     cursor: pointer;
 }
 
-button:focus{
-    background-color: var(--charcoal-focus-color);
+button:active{
+    background-color: var(--primary-color-focus);
 }
 
 .header > div:last-child > p{
@@ -271,7 +279,7 @@ button:focus{
 .card{
     position: relative;
 
-    background-color: var(--white);
+    background-color: var(--secondary-color);
     box-shadow: rgb(221, 221, 221) 2px 5px 5px;
 
     border-radius: 12px;
@@ -279,12 +287,12 @@ button:focus{
     display: grid;
     grid-template-columns: 8px 1fr;
 
-
+    height: 200px;
     width: 95%;
 }
 
 .card > div:first-child{
-    background-color: var(--sunglow-color);
+    background-color: var(--ascent-color);
     border-radius: 12px 0 0 12px;
 }
 
@@ -314,16 +322,16 @@ button:focus{
 .card svg{
     z-index: 2;
     height: 35px;
-    fill: var(--dark-purple);
+    fill: var(--ascent-color);
 }
 
 .card svg:hover{
-    fill: #633550;
+    fill: var(--ascent-color-hover);
     cursor: pointer;
 }
 
-.card svg:focus{
-    fill: #311927;
+.card svg:active{
+    fill: var(--ascent-color-focus);
 }
 
 .main-part > div:last-child{
@@ -339,7 +347,6 @@ button:focus{
 h4{
     align-self: self-end;
     font-size: 1.2rem;
-    color: var(--charcoal-color);
 }
 
 
