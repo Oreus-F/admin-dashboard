@@ -159,11 +159,16 @@ li:hover{
 
 .header svg {
     height: 35px;
+    fill: var(--primary-color);
 }
 
 .header svg:hover{
     cursor: pointer;
-    fill: rgb(116, 116, 116);
+    fill: var(--primary-color-hover);
+}
+
+.header svg:active{
+    fill: var(--primary-color-focus);
 }
 
 
